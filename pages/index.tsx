@@ -77,24 +77,23 @@ export default function Home() {
 const sliderData = [
   {
     img: "/1.png",
-    location: "Switzrerland Apls",
+    location: "Care Foundation's Initiative",
     description:
-      "The journey to Machu Picchu typically starts in the mountain city of Cusco, which was the capital city of the Inca Empire",
-    title: "SAINT ANTÖNEN",
+      "A humanitarian initiative to combat hunger and support vulnerable communities",
   },
   {
     img: "/2.png",
-    title: "The Grand Canyon",
+    title: "Flag Pride Rally",
     description:
-      "The earth's geological history opens before your eyes in a mile-deep chasm",
-    location: "Arizona",
+      "In a bid to preserve the dignity of India's national flag, CARE Foundation has embarked on a noteworthy initiative.",
+    location: "Care Foundation's Initiative",
   },
   {
     img: "/3.png",
-    title: "Masai Mara",
+    title: "Project ASHA",
     description:
-      "Wild animals in their natural environment, luxury safari lodges",
-    location: "Kenya",
+      "Care Foundation’s Project ASHA is a heartfelt tribute to Late Mrs. Asha Anil Bhatkal, a dedicated social worker whose compassion uplifted countless lives. ",
+    location: "Care Foundation's Initiative",
   },
   {
     img: "/4.png",
