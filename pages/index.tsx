@@ -11,6 +11,7 @@ const inter = Righteous({
   subsets: ["latin"],
   weight: ["400"],
 });
+
 export type Data = {
   img: string;
   title: string;
@@ -45,16 +46,16 @@ export default function Home() {
           transitionData={transitionData}
           currentSlideData={currentSlideData}
         />
-        <div className="  absolute z-20  h-full w-full">
+        <div className="absolute z-20 h-full w-full">
           <Header />
-          <div className=" flex h-full w-full grid-cols-10 flex-col md:grid">
-            <div className=" col-span-4 mb-3 flex h-full flex-1 flex-col justify-end px-5 md:mb-0 md:justify-center md:px-10">
+          <div className="flex h-full w-full grid-cols-10 flex-col md:grid">
+            <div className="col-span-4 mb-3 flex h-full flex-1 flex-col justify-end px-5 md:mb-0 md:justify-center md:px-10">
               <SlideInfo
                 transitionData={transitionData}
                 currentSlideData={currentSlideData}
               />
             </div>
-            <div className=" col-span-6 flex h-full flex-1 flex-col justify-start p-4 md:justify-center md:p-10">
+            <div className="col-span-6 flex h-full flex-1 flex-col justify-start p-4 md:justify-center md:p-10">
               <Slides data={data} />
               <Controls
                 currentSlideData={currentSlideData}
@@ -77,23 +78,24 @@ export default function Home() {
 const sliderData = [
   {
     img: "/1.png",
-    location: "Care Foundation's Initiative",
+    title: "Niyati ~ Feed The Need",
     description:
-      "A humanitarian initiative to combat hunger and support vulnerable communities",
+      "A humanitarian initiative to combat hunger and support vulnerable communities.",
+    location: "India",
   },
   {
     img: "/2.png",
-    title: "Flag Pride Rally",
+    title: "Project ASHA",
     description:
-      "In a bid to preserve the dignity of India's national flag, CARE Foundation has embarked on a noteworthy initiative.",
-    location: "Care Foundation's Initiative",
+      "Care Foundation’s Project ASHA is a heartfelt tribute to Late Mrs. Asha Anil Bhatkal, a dedicated social worker whose compassion uplifted countless lives. Inspired by her legacy, Project ASHA focuses on three vital pillars.",
+    location: "India",
   },
   {
     img: "/3.png",
-    title: "Project ASHA",
+    title: "Masai Mara",
     description:
-      "Care Foundation’s Project ASHA is a heartfelt tribute to Late Mrs. Asha Anil Bhatkal, a dedicated social worker whose compassion uplifted countless lives. ",
-    location: "Care Foundation's Initiative",
+      "Wild animals in their natural environment, luxury safari lodges",
+    location: "Kenya",
   },
   {
     img: "/4.png",
