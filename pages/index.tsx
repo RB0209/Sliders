@@ -92,9 +92,9 @@ const sliderData = [
   },
   {
     img: "/3.png",
-    title: "Masai Mara",
+    title: "Flag Pride Rally",
     description:
-      "Wild animals in their natural environment, luxury safari lodges",
+      "In a bid to preserve the dignity of India's national flag",
     location: "Kenya",
   },
   {
